@@ -1,0 +1,328 @@
+{
+  "_nota": "Dati delle postazioni, separati dal codice grafico. 'posizione.progressiva' = metri dall'inizio della strada (punto 'da' in percorso.json). 'lato' = nord | sud | est | ovest rispetto alla strada. I contenuti testuali e i menu sono PROVVISORI. Ogni voce di menu ha 'nome' e, al posto del prezzo, 'tipo': 'piatto' (cibo nel piatto), 'bevanda' (da bere) o 'strada' (si mangia in mano); il tipo decide l'icona mostrata nella scheda. Per sostituire la casetta procedurale con un modello GLB, indicare il percorso del file in 'modello3d' (es. 'models/vico-firenze.glb'): il modello deve avere l'origine al centro della facciata, a livello del suolo, con la facciata rivolta verso +Z.",
+  "postazioni": [
+    {
+      "id": "vico-firenze",
+      "numero": 1,
+      "nome": "Vico Firenze",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "sud",
+        "progressiva": 8
+        
+      },
+      "casetta": {
+        "modello": "bottega",
+        "muro": "crema",
+        "portone": "verde"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+          { "nome": "Cuoppo di castagne", "tipo": "piatto" },
+          { "nome": "Caciotta di formaggio", "tipo": "strada" },
+          { "nome": "Vin Brulé", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "vico-grosseto",
+      "numero": 2,
+      "nome": "Vico Grosseto",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "nord",
+        "progressiva": 11
+      },
+      "casetta": {
+        "modello": "corte",
+        "muro": "avorio",
+        "portone": "rosso"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+          { "nome": "Braciola", "tipo": "piatto" },
+          { "nome": "Braciola di cotica", "tipo": "piatto" },
+          { "nome": "Strangolapreti (gnocchi)", "tipo": "piatto" },
+          { "nome": "Vino", "tipo": "bevanda" },
+          { "nome": "Acqua", "tipo": "bevanda" }
+
+      ]
+    },
+    {
+      "id": "vico-santo-stefano",
+      "numero": 3,
+      "nome": "Vico Santo Stefano",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "sud",
+        "progressiva": 25.5
+      },
+      "casetta": {
+        "modello": "portico",
+        "muro": "beige",
+        "portone": "noce"
+      },
+      "modello3d": null,
+      "descrizione": "Descrizione provvisoria della postazione.",
+      "menu": [
+        { "nome": "Guanti", "tipo": "strada" },
+        { "nome": "Zippoli", "tipo": "strada" },
+        { "nome": "Pizza figliata", "tipo": "strada" },
+        { "nome": "Struffoli", "tipo": "strada" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "vico-arezzo",
+      "numero": 4,
+      "nome": "Vico Arezzo",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "nord",
+        "progressiva": 35
+      },
+      "casetta": {
+        "modello": "timpano",
+        "muro": "burro",
+        "portone": "verde"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Pettole e fagioli", "tipo": "piatto" },
+        { "nome": "Panorra (pane cotto, fagioli e broccoli)", "tipo": "piatto" },
+        { "nome": "Fagioli nel pignato", "tipo": "strada" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "casa-babbo-natale",
+      "numero": 5,
+      "nome": "Casa di Babbo Natale",
+      "categoria": "evento",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "sud",
+        "progressiva": 43.5
+      },
+      "casetta": {
+        "modello": "babbo",
+        "muro": "rosa",
+        "portone": "rosso"
+      },
+      "modello3d": null,
+      "descrizione": "Descrizione provvisoria dell’attrazione.",
+      "menu": []
+    },
+    {
+      "id": "vico-modena",
+      "numero": 6,
+      "nome": "Vico Modena",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "nord",
+        "progressiva": 56
+      },
+      "casetta": {
+        "modello": "torretta",
+        "muro": "salvia",
+        "portone": "rosso"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Caciocavallo impiccato", "tipo": "strada" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "vico-flacco",
+      "numero": 7,
+      "nome": "Vico Flacco",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "sud",
+        "progressiva": 61
+      },
+      "casetta": {
+        "modello": "bottega",
+        "muro": "pesca",
+        "portone": "verde"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Cuzzetiello con polpette", "tipo": "strada" },
+        { "nome": "Cuzzetiello con salsiccia e broccoli", "tipo": "strada" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "vico-cuccari",
+      "numero": 8,
+      "nome": "Vico Cuccari",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-roma",
+        "lato": "nord",
+        "progressiva": 70
+      },
+      "casetta": {
+        "modello": "corte",
+        "muro": "crema",
+        "portone": "blu"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Cuoppo di alici fritte", "tipo": "strada" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "vico-gesuiti",
+      "numero": 9,
+      "nome": "Vico Gesuiti — Mostra Pro Loco",
+      "categoria": "evento",
+      "posizione": {
+        "strada": "via-agnena",
+        "lato": "est",
+        "progressiva": 11
+      },
+      "casetta": {
+        "modello": "mostra",
+        "muro": "beige",
+        "portone": "verde"
+      },
+      "modello3d": null,
+      "descrizione": "Descrizione provvisoria dell’attrazione.",
+      "menu": []
+    },
+    {
+      "id": "vico-san-vincenzo",
+      "numero": 10,
+      "nome": "Vico San Vincenzo",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-agnena",
+        "lato": "ovest",
+        "progressiva": 25.9
+      },
+      "casetta": {
+        "modello": "timpano",
+        "muro": "avorio",
+        "portone": "rosso"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Pizza nel ruoto", "tipo": "strada" },
+        { "nome": "Pizzetta fritta", "tipo": "strada" },
+        { "nome": "Pizzetta di cavolfiori", "tipo": "strada" },
+        { "nome": "Pizza a portafoglio", "tipo": "strada" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "vico-san-bernardo",
+      "numero": 11,
+      "nome": "Vico San Bernardo",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-agnena",
+        "lato": "est",
+        "progressiva": 30.4
+      },
+      "casetta": {
+        "modello": "torretta",
+        "muro": "crema",
+        "portone": "noce"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Pasta patate e provola", "tipo": "piatto" },
+        { "nome": "Patate e salsiccia", "tipo": "piatto" },
+        { "nome": "Trippa", "tipo": "piatto" },
+        { "nome": "Crocchè", "tipo": "strada" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "presepe-vivente",
+      "numero": 12,
+      "nome": "Presepe Vivente — Oratorio San Francesco",
+      "categoria": "evento",
+      "posizione": {
+        "strada": "via-agnena",
+        "lato": "ovest",
+        "progressiva": 41
+      },
+      "casetta": {
+        "modello": "oratorio",
+        "muro": "avorio",
+        "portone": "noce"
+      },
+      "modello3d": null,
+      "descrizione": "Descrizione provvisoria dell’attrazione.",
+      "menu": []
+    },
+    {
+      "id": "vico-sant-alfonso",
+      "numero": 13,
+      "nome": "Vico Sant’Alfonso",
+      "categoria": "enogastronomia",
+      "posizione": {
+        "strada": "via-agnena",
+        "lato": "est",
+        "progressiva": 46.8
+      },
+      "casetta": {
+        "modello": "portico",
+        "muro": "burro",
+        "portone": "rosso"
+      },
+      "modello3d": null,
+      "descrizione": "",
+      "menu": [
+        { "nome": "Polenta con sugo di salsiccia", "tipo": "piatto" },
+        { "nome": "Arrosticini di pecora", "tipo": "strada" },
+        { "nome": "Soffritto", "tipo": "piatto" },
+        { "nome": "Vino", "tipo": "bevanda" },
+        { "nome": "Acqua", "tipo": "bevanda" }
+      ]
+    },
+    {
+      "id": "sede-associazione",
+      "numero": 14,
+      "nome": "Sede dell’Associazione",
+      "categoria": "associazione",
+      "posizione": {
+        "strada": "via-agnena",
+        "lato": "est",
+        "progressiva": 18.8
+      },
+      "casetta": {
+        "modello": "sede",
+        "muro": "avorio",
+        "portone": "noce"
+      },
+      "modello3d": null,
+      "descrizione": "Descrizione provvisoria della sede dell’associazione.",
+      "menu": []
+    }
+  ]
+}

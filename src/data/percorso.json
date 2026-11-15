@@ -1,0 +1,67 @@
+{
+  "_nota": "Geometria schematizzata del percorso a T, ricavata dalla cartina enogastronomica. Unità: metri. Asse X = da ovest a est, asse Z = da nord (valori negativi) a sud (valori positivi). Il nome della strada che sale verso la Chiesa Madre è da verificare sulla cartina originale. 'orientamento' dei punti di interesse = direzione verso cui guarda la facciata. 'monumenti' = edifici senza numero allineati sulle strade (stessa logica di posizione delle postazioni): 'modello' è uno dei modelli di casetta.",
+  "strade": [
+    {
+      "id": "via-roma",
+      "nome": "Via Roma",
+      "da": [
+        -45,
+        0
+      ],
+      "a": [
+        33,
+        0
+      ],
+      "larghezza": 10,
+      "marciapiede": 1.8
+    },
+    {
+      "id": "via-agnena",
+      "nome": "Via dell’Agnena",
+      "da": [
+        0,
+        -5
+      ],
+      "a": [
+        0,
+        -58.7
+      ],
+      "larghezza": 8.4,
+      "marciapiede": 1.6
+    }
+  ],
+  "puntiDiInteresse": [
+    {
+      "id": "chiesa-madre",
+      "nome": "Chiesa Madre di Santa Maria dell’Agnena",
+      "tipo": "chiesa",
+      "posizione": [
+        0,
+        -60.2
+      ],
+      "orientamento": "sud"
+    },
+    {
+      "id": "bagni-pubblici",
+      "nome": "Bagni pubblici",
+      "tipo": "servizi",
+      "posizione": [
+        14.2,
+        -29
+      ],
+      "orientamento": "sud"
+    }
+  ],
+  "monumenti": [
+    {
+      "id": "campanile",
+      "nome": "Campanile",
+      "modello": "campanile",
+      "strada": "via-roma",
+      "lato": "sud",
+      "progressiva": 37.8,
+      "muro": "sabbia",
+      "portone": "noce"
+    }
+  ]
+}
